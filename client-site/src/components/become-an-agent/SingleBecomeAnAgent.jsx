@@ -59,7 +59,7 @@ const SingleBecomeAnAgent = ({
         {/* Additional List */}
         {Array.isArray(text4) &&
           text4.map((item, index) => (
-            <React.Fragment key={index}>
+            <div key={index}>
               <li className="text-red-600 text-base lg:text-lg uppercase font-bold italic list-decimal mt-2">
                 {item}
               </li>
@@ -68,7 +68,7 @@ const SingleBecomeAnAgent = ({
                   {additionalText[index]}
                 </p>
               )}
-            </React.Fragment>
+            </div>
           ))}
 
         {/* Button Section - Center for mobile, Start for lg */}
