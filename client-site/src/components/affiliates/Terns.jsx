@@ -61,24 +61,24 @@ const Terns = () => {
               true, accurate, and valid.
             </li>
             <li>
-              CRICKEX360 is not liable for any risk associated with losing User
+              HEYBAJI is not liable for any risk associated with losing User
               ID/Password or sharing this information with others. If you
-              suspect your User ID has been compromised, please contact
-              CRICKEX360 support immediately.
+              suspect your User ID has been compromised, please contact HEYBAJI
+              support immediately.
             </li>
             <li>
               Affiliates acknowledge and confirm that they have read,
               understood, and agreed to all the terms and conditions stated.
             </li>
             <li>
-              CRICKEX360 uses user-provided information solely for specific
+              HEYBAJI uses user-provided information solely for specific
               purposes, such as sending electronic newsletters and providing
               requested information, including promotions and member services.
-              CRICKEX360 does not use individual user information for other
+              HEYBAJI does not use individual user information for other
               purposes and will not disclose it to third parties without
               consent.
             </li>
-            <li>CRICKEX360’s Terms and Conditions apply.</li>
+            <li>HEYBAJI’s Terms and Conditions apply.</li>
             <li>
               Affiliates must have at least 5 active players to qualify for
               commissions.

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <BannerSlider />
-      <div className="md:px-4 bg-footerBg">
+      <div className="md:px-4 bg-SiteBg">
         <MarqueeSlider />
         <MenuBar />
         <div className="px-4 md:px-0">

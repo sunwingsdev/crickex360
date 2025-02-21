@@ -81,10 +81,10 @@ const FeaturedSelectionSection = () => {
               src={`${import.meta.env.VITE_BASE_API_URL}${control.image}`}
               alt=""
             />
-            <p className="my-2 font-bold text-footerTextColor line-clamp-2">
+            <p className="my-2 font-bold text-black line-clamp-2">
               Title: {control.title}
             </p>
-            <p className="font-medium text-footerTextColor line-clamp-2">
+            <p className="font-medium text-black line-clamp-2">
               Link: {control.link}
             </p>
             <input

@@ -505,7 +505,7 @@ const MenuBar = () => {
     <>
       <div>
         {/* Menu Bar */}
-        <div className="menu-container flex bg-SidebarBg overflow-x-auto">
+        <div className="menu-container flex bg-MenuBarBg overflow-x-auto">
           {menuItems.map((item) => (
             <div
               key={item.id}

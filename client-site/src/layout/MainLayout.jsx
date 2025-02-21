@@ -4,6 +4,7 @@ import Navbar from "../components/shared/navbar/Navbar";
 import SidebarMenu from "../components/shared/sidebarMenu/SidebarMenu";
 import { useState } from "react";
 import { IoIosCloseCircle } from "react-icons/io";
+import sticker from "../assets/sticker.gif";
 
 // import MobileMenu from "../components/home/MobileMenu";
 
@@ -13,13 +14,13 @@ const MainLayout = () => {
 
   const menuItems = [
     {
-      name: "Home",
+      name: "হোম",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-home.png?v=1737700451320",
       path: "/",
       submenu: [],
     },
     {
-      name: "Hot Games",
+      name: "হট গেমস",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-hotgame.png?v=1737700451320",
       submenu: [
         {
@@ -59,7 +60,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Sports",
+      name: "স্পোর্টস",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-sport.png?v=1737700451320",
       submenu: [
         {
@@ -101,7 +102,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Slot",
+      name: "স্লট",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-slot.png?v=1737700451320",
       submenu: [
         {
@@ -183,7 +184,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Crash",
+      name: "ক্রাশ",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-crash.png?v=1737700451320",
       submenu: [
         {
@@ -205,7 +206,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Casino",
+      name: "ক্যাসিনো",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-casino.png?v=1737700451320",
       submenu: [
         {
@@ -235,7 +236,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Table",
+      name: "টেবিল",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-table.png?v=1737700451320",
       submenu: [
         {
@@ -285,7 +286,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Lottery",
+      name: "লটারি",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-lottery.png?v=1737700451320",
       submenu: [
         {
@@ -307,7 +308,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Fishing",
+      name: "ফিসিং",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-fish.png?v=1737700451320",
       submenu: [
         {
@@ -337,7 +338,7 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Arcade",
+      name: "আর্কেড",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-arcade.png?v=1737700451320",
       submenu: [
         {
@@ -387,20 +388,20 @@ const MainLayout = () => {
       ],
     },
     {
-      name: "Promotions",
+      name: "প্রোমোশনস",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-promotion.png?v=1737700451320",
       path: "/promotion",
     },
     {
-      name: "Refer Bonus",
+      name: "রেফার বোনাস",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-referral.png?v=1737700451320",
     },
     {
-      name: "Download",
+      name: "ডাউনলোড",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-download.png?v=1737700451320",
     },
     {
-      name: "Contact Us",
+      name: "যোগাযোগ",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-talk.png?v=1737700451320",
       submenu: [
         {
@@ -435,7 +436,7 @@ const MainLayout = () => {
         }`}
       >
         <Navbar open={open} setOpen={setOpen} menuItems={menuItems} />
-        <div className="mt-[62px] md:mt-16 md:px-40">
+        <div className="mt-[62px] md:mt-16 md:px-40 bg-SiteBg">
           <Outlet />
           <Footer />
         </div>
@@ -454,11 +455,7 @@ const MainLayout = () => {
               <IoIosCloseCircle />
             </button>
           </div>
-          <img
-            className="w-24 md:w-40"
-            src="https://img.d4040p.com/upload/footerH5FloatBanner/image_202063.gif"
-            alt=""
-          />
+          <img className="w-24 md:w-40" src={sticker} alt="" />
         </div>
       )}
     </div>

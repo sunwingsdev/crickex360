@@ -30,6 +30,10 @@ const corsConfig = {
     "https://www.betby247.com",
     "www.betby247.com",
     "betby247.com",
+    "https://fx9bet.com",
+    "http://fx9bet.com",
+    "www.fx9bet.com",
+    "fx9bet.com",
     // "https://darazplay.oracleapi.net",
     // "http://darazplay.oracleapi.net",
     // "https://www.darazplay.oracleapi.net",
@@ -96,31 +100,25 @@ async function run() {
     await client.connect();
 
     //collections start
-    const usersCollection = client.db("crickex360").collection("users");
-    const depositsCollection = client.db("crickex360").collection("deposits");
-    const withdrawsCollection = client.db("crickex360").collection("withdraws");
-    const promotionCollection = client
-      .db("crickex360")
-      .collection("promotions");
-    const categoriesCollection = client
-      .db("crickex360")
-      .collection("categories");
-    const pagesCollection = client.db("crickex360").collection("pages");
+    const usersCollection = client.db("heybaji").collection("users");
+    const depositsCollection = client.db("heybaji").collection("deposits");
+    const withdrawsCollection = client.db("heybaji").collection("withdraws");
+    const promotionCollection = client.db("heybaji").collection("promotions");
+    const categoriesCollection = client.db("heybaji").collection("categories");
+    const pagesCollection = client.db("heybaji").collection("pages");
     const homeControlsCollection = client
-      .db("crickex360")
+      .db("heybaji")
       .collection("homeControls");
-    const kycCollection = client.db("crickex360").collection("kyc");
+    const kycCollection = client.db("heybaji").collection("kyc");
     const paymentNumberCollection = client
-      .db("crickex360")
+      .db("heybaji")
       .collection("payment-numbers");
     const paymentMethodCollection = client
-      .db("crickex360")
+      .db("heybaji")
       .collection("payment-methods");
-    const referCodesCollection = client
-      .db("crickex360")
-      .collection("refer-links");
+    const referCodesCollection = client.db("heybaji").collection("refer-links");
     const commissionsCollection = client
-      .db("crickex360")
+      .db("heybaji")
       .collection("commissions");
     //collections end
 

@@ -178,7 +178,7 @@ const Navbar = ({ open, menuItems }) => {
                       Login
                     </button>
                     <button
-                      className="text-xs sm:text-sm font-medium px-2 sm:px-3 md:px-6 py-1 md:py-2 text-white bg-signinButtonBgColor transition-all duration-300 rounded-md"
+                      className="text-xs sm:text-sm font-medium px-2 sm:px-3 md:px-6 py-1 md:py-2 text-white bg-signupButtonBgColor transition-all duration-300 rounded-md"
                       onClick={() => openModal("signup_modal")}
                     >
                       Sign Up
@@ -284,7 +284,7 @@ const Navbar = ({ open, menuItems }) => {
               </button>
               {/* Sign In Button */}
               <button
-                className="py-1.5 px-1 w-full flex items-center justify-center bg-signinButtonBgColor"
+                className="py-1.5 px-1 w-full flex items-center justify-center bg-signupButtonBgColor"
                 onClick={() => openModal("signup_modal")}
               >
                 Sign up
