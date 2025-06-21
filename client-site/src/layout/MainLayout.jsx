@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../components/shared/footer/footer";
+import Footer from "../components/shared/footer/Footer";
 import Navbar from "../components/shared/navbar/Navbar";
 import SidebarMenu from "../components/shared/sidebarMenu/SidebarMenu";
 import { useState } from "react";
