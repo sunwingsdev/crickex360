@@ -69,13 +69,13 @@ const BannerSlider = () => {
       </Swiper>
       <div
         ref={nextRef}
-        className=" absolute top-1/2 transform -translate-y-1/2 right-2 text-xl sm:text-2xl text-white z-10"
+        className="cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-3 text-xl sm:text-2xl text-white z-10"
       >
         <AiOutlineRight />
       </div>
       <div
         ref={prevRef}
-        className=" absolute top-1/2 transform -translate-y-1/2 left-2 text-xl sm:text-2xl text-white z-10"
+        className="cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-3 text-xl sm:text-2xl text-white z-10"
       >
         <AiOutlineLeft />
       </div>
