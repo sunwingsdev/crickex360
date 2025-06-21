@@ -29,7 +29,7 @@ const corsConfig = {
     `http://${process.env.SITE_URL}`,
     `http://www.${process.env.SITE_URL}`,
     `www.${process.env.SITE_URL}`,
-    `${process.env.SITE_URL}`,
+    `${process.env.SITE_URL}`, 
     "*",
   ],
   credential: true,
