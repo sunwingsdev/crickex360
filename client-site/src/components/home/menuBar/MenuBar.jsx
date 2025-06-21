@@ -11,57 +11,8 @@ const MenuBar = () => {
   const { addToast } = useToasts();
   const navigate = useNavigate();
   const menuItems = [
-    // {
-    //   id: 1,
-    //   name: "HOT GAME",
-    //   icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-home.png?v=1737700451320",
-    //   subItems: [
-    //     {
-    //       id: 1,
-    //       name: "9WICKETS",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/sports-icon/icon-9w.png?v=1735554256445&source=mcdsrc",
-    //     },
-    //     {
-    //       id: 2,
-    //       name: "AVIATOR",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/brand/white/provider-aviator.png?v=1735554256445&source=mcdsrc",
-    //       demo: "/games/demo/aviator",
-    //     },
-    //     {
-    //       id: 3,
-    //       name: "CRAZYTIME",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/brand/white/provider-crazytime.png?v=1735554256445&source=mcdsrc",
-    //     },
-    //     {
-    //       id: 4,
-    //       name: "BACCARAT",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/brand/white/provider-sexybacarratclassic.png?v=1735554256445&source=mcdsrc",
-    //     },
-    //     {
-    //       id: 5,
-    //       name: "MONEY COMING",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/brand/white/provider-moneycoming.png?v=1735554256445&source=mcdsrc",
-    //     },
-    //     {
-    //       id: 6,
-    //       name: "SUPERACE",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/brand/white/provider-superace.png?v=1735554256445&source=mcdsrc",
-    //       demo: "/games/demo/super-ace",
-    //     },
-    //     {
-    //       id: 7,
-    //       name: "7UP7DOWN",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/brand/white/provider-7up7down2.png?v=1735554256445&source=mcdsrc",
-    //     },
-    //     {
-    //       id: 8,
-    //       name: "ANDAR BAHAR",
-    //       icon: "https://img.d4040p.com/dp/h5/assets/images/brand/white/provider-andarbahar.png?v=1735554256445&source=mcdsrc",
-    //     },
-    //   ],
-    // },
     {
-      id: 2,
+      id: 1,
       name: "SPORTS",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-sport.png?v=1737700451320",
       subItems: [
@@ -108,7 +59,7 @@ const MenuBar = () => {
       ],
     },
     {
-      id: 3,
+      id: 2,
       name: "SLOTS",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-slot.png?v=1737700451320",
       subItems: [
@@ -215,7 +166,7 @@ const MenuBar = () => {
       ],
     },
     {
-      id: 4,
+      id: 3,
       name: "CRASH",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-crash.png?v=1737700451320",
       subItems: [
@@ -246,7 +197,7 @@ const MenuBar = () => {
       ],
     },
     {
-      id: 5,
+      id: 4,
       name: "CASINO",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-casino.png?v=1737700451320",
       subItems: [
@@ -285,7 +236,7 @@ const MenuBar = () => {
       ],
     },
     {
-      id: 6,
+      id: 5,
       name: "TABLE",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-table.png?v=1737700451320",
       subItems: [
@@ -348,7 +299,7 @@ const MenuBar = () => {
       ],
     },
     {
-      id: 7,
+      id: 6,
       name: "LOTTERY",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-lottery.png?v=1737700451320",
       subItems: [
@@ -395,7 +346,7 @@ const MenuBar = () => {
       ],
     },
     {
-      id: 8,
+      id: 7,
       name: "FISHING",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-fish.png?v=1737700451320",
       subItems: [
@@ -442,7 +393,7 @@ const MenuBar = () => {
       ],
     },
     {
-      id: 9,
+      id: 8,
       name: "ARCADE",
       icon: "https://img.d4040p.com/dp/h5/assets/images/icon-set/theme-icon/icon-arcade.png?v=1737700451320",
       subItems: [
